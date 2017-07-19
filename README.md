@@ -7,16 +7,19 @@ The branching process approximation uses the package Expokit: https://www.maths.
 The code expects to find this at ~/MATLAB/+expokit 
 
 
-## simulation
+## Simulation
 
-Code for simulation household epidemics. This is based on the Ball model.
+A script for simulating household epidemics, SIRhh.m, based on the Ball model simulated by the Doob-Gillespie algorithm.
+The simulated data used in the paper is given in the data file, simsforpaper.mat.
 
 ## BPA
 
 Perform inference using the branching process approximation (BPA).
-The script BPA_example.m loads a test data set and runs the Metropolis-Hastings algorithm.
+The script BPA_example.m loads a test data set, Example_simulation.mat, and runs the Metropolis-Hastings algorithm, MetHast_BPA.m.
+ All other scripts and functions in the folder are required to run the Metropolis-Hastings scheme.
 
 ## DAMCMC
 
-Data-augmented MCMC. 
-The script DAMCMC_example.m loads a test data set and runs the inference routine.
+Perform inference using the Data-augmented MCMC. 
+The script DAMCMC_example.m loads a test data set, Example_simulation.mat, and runs the inference routine.
+The function DAMCMCfunc.m can be used to run the inference routine on a given FF100 data set.
