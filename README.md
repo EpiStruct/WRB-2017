@@ -1,6 +1,6 @@
 # Walker, Ross and Black, 2017.
 
-This is code in support of the paper: Walker, J., Ross, J.V. and Black A.J. (2017) Inference of epidemiological parameters from household stratified data. https://arxiv.org/abs/1609.09170
+This is code in support of the paper: Walker, J., Ross, J.V. and Black A.J. (2017) Inference of epidemiological parameters from household stratified data. https://doi.org/10.1371/journal.pone.0185910
 
 If you use or modify this code, please cite the above paper. 
 The branching process approximation uses the package Expokit: https://www.maths.uq.edu.au/expokit/
